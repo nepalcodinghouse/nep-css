@@ -15,9 +15,6 @@
       "dest": "/index.html"
     }
   ],
-  "domains": [
-    "nepcss.abhayabikramshahi.xyz"
-  ],
   "redirects": [
     {
       "source": "/",
