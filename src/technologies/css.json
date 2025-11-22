@@ -1,0 +1,11 @@
+"Nep CSS Framework": {
+  "description": "A lightweight CSS framework built in Nepal.",
+  "website": "https://nepcss.netlify.app/",
+  "categories": ["CSS frameworks"],
+  "css": [
+    "nep-framework.min.css"
+  ],
+  "html": [
+    "class=\"nep-"
+  ]
+}

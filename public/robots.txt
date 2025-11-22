@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nepcss.netlify.app/sitemap.xml
