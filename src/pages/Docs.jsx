@@ -49,11 +49,10 @@ function Docs() {
         {/* Header */}
         <header className="sticky top-0 z-10 bg-white border-b border-gray-200">
           <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
+            <div className="flex items-center  h-16">
               <div className="flex items-center">
-                <div className="flex-shrink-0 flex items-center">
-                  <div className="h-8 w-8 rounded-full bg-indigo-600"></div>
-                  <span className="ml-2 text-xl font-semibold text-gray-900">Nep CSS</span>
+                <div className="flex-shrink-0 flex items-left">
+                
                 </div>
               </div>
               <div className="hidden md:block">
@@ -164,24 +163,9 @@ function Docs() {
                   </div>
                 </div>
 
-                <div className="mb-8">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Using CDN</h3>
-                  <p className="text-gray-600 mb-4">
-                    Include the CSS file directly in your HTML:
-                  </p>
+               
                   
-                  <div className="relative">
-                    <div className="bg-gray-800 rounded-lg px-5 py-4">
-                      <code className="text-gray-100 font-mono text-sm break-words">
-                        {`<link rel="stylesheet" href="https://unpkg.com/nep-css-framework/dist/nep.min.css">`}
-                      </code>
-                    </div>
-                    <button className="absolute top-3 right-3 flex items-center justify-center gap-1 bg-gray-700 hover:bg-gray-600 text-gray-200 text-xs px-3 py-1.5 rounded" aria-label="Copy CDN installation code">
-                      <Copy className="w-3 h-3" />
-                      Copy
-                    </button>
-                  </div>
-                </div>
+         
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">Usage</h3>
@@ -216,7 +200,7 @@ function Docs() {
                   <div className="relative mb-4">
                     <div className="bg-gray-800 rounded-lg px-5 py-4">
                       <code className="text-gray-100 font-mono text-sm">
-                        npm create vite@latest my-app
+                        npm create vite@latest .
                       </code>
                     </div>
                     <button
@@ -243,7 +227,7 @@ function Docs() {
                   <div className="relative mb-4">
                     <div className="bg-gray-800 rounded-lg px-5 py-4">
                       <code className="text-gray-100 font-mono text-sm">
-                        cd my-app<br />
+                        
                         npm install nep-css-framework
                       </code>
                     </div>
@@ -299,7 +283,7 @@ function Docs() {
                 </div>
                 
                 <a 
-                  href="https://nepcss.netlify.app/" 
+                  href="https://nepcss.abhayabikramshahi.xyz/docs/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-indigo-600 hover:text-indigo-800 font-medium"
