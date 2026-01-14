@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import { Github, Twitter, Linkedin, Mail, MapPin, Calendar, Code, Coffee, Heart, Award, Users, Zap } from "lucide-react";
 
 function Creator() {
   return (
